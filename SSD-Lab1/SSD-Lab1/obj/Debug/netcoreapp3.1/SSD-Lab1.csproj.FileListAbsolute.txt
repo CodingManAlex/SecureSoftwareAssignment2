@@ -185,3 +185,15 @@ C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SS
 C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\SSD-Lab1.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\SSD-Lab1.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\SSD-Lab1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Views\Teams\Create.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Views\Teams\Delete.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Views\Teams\Details.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Views\Teams\Edit.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Views\Teams\Index.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Alex\Documents\_MOHAWK_COLLEGE\6_SEMESTER\SecureSoftwareDev\SSD-Lab1\SSD-Lab1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs

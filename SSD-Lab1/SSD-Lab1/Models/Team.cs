@@ -14,8 +14,11 @@ namespace SSD_Lab1.Models
         public string TeamName { get; set; }
         [Required, EmailAddress]
         public string Email { get; set; }
+
         [Display(Name = "Established Date")]
-        public DateTime EstablishedDate { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
+        public DateTime? EstablishedDate { get; set; }
 
     }
 }

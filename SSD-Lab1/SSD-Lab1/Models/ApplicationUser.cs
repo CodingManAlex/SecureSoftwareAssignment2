@@ -13,11 +13,10 @@ namespace SSD_Lab1.Models
         public string FirstName { get; set; }
         [Required, Display(Name = "Last Name")]
         public string LastName { get; set; }
-        //[Required]
-        //public string Email { get; set; }
-        [Display(Name = "Phone Number")]
-        public string PhoneNumber { get; set; }
+        
         [Display(Name = "Date of Birth")]
-        public DateTime DateOfBirth { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
+        public DateTime? DateOfBirth { get; set; }
     }
 }

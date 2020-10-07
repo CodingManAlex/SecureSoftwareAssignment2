@@ -1,7 +1,12 @@
-﻿using System;
+﻿// I, Alexander Watson, student number 001197775, certify that this material is my
+// original work. No other person's work has been used without due
+// acknowledgement and I have not made my work available to anyone else.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +15,7 @@ using SSD_Lab1.Models;
 
 namespace SSD_Lab1.Controllers
 {
+    [Authorize]
     public class TeamsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,12 +26,14 @@ namespace SSD_Lab1.Controllers
         }
 
         // GET: Teams
+        [Authorize(Roles = "Manager,Player")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Team.ToListAsync());
         }
 
         // GET: Teams/Details/5
+        [Authorize(Roles = "Manager,Player")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,6 +52,7 @@ namespace SSD_Lab1.Controllers
         }
 
         // GET: Teams/Create
+        [Authorize(Roles = "Manager")]
         public IActionResult Create()
         {
             return View();
@@ -54,6 +63,7 @@ namespace SSD_Lab1.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Create([Bind("Id,TeamName,Email,EstablishedDate")] Team team)
         {
             if (ModelState.IsValid)
@@ -66,6 +76,7 @@ namespace SSD_Lab1.Controllers
         }
 
         // GET: Teams/Edit/5
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -86,6 +97,7 @@ namespace SSD_Lab1.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,TeamName,Email,EstablishedDate")] Team team)
         {
             if (id != team.Id)
@@ -117,6 +129,7 @@ namespace SSD_Lab1.Controllers
         }
 
         // GET: Teams/Delete/5
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -137,6 +150,7 @@ namespace SSD_Lab1.Controllers
         // POST: Teams/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var team = await _context.Team.FindAsync(id);

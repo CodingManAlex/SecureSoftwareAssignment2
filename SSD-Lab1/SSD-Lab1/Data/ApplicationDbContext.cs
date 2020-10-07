@@ -13,6 +13,6 @@ namespace SSD_Lab1.Data
             : base(options)
         {
         }
-        public DbSet<SSD_Lab1.Models.Team> Team { get; set; }
+        public DbSet<Team> Team { get; set; }
     }
 }
