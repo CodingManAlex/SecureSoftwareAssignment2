@@ -9195,11 +9195,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Documents\\_MOHAWK_COLLEGE\\6_SEMESTER\\SecureSoftwareDev\\SSD-Lab1\\SSD-Lab1\\SSD-Lab1.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\SecureSoftwareAssignment\\SSD-Lab1\\SSD-Lab1\\SSD-Lab1.csproj",
       "projectName": "SSD-Lab1",
-      "projectPath": "C:\\Users\\Alex\\Documents\\_MOHAWK_COLLEGE\\6_SEMESTER\\SecureSoftwareDev\\SSD-Lab1\\SSD-Lab1\\SSD-Lab1.csproj",
+      "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\SecureSoftwareAssignment\\SSD-Lab1\\SSD-Lab1\\SSD-Lab1.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Documents\\_MOHAWK_COLLEGE\\6_SEMESTER\\SecureSoftwareDev\\SSD-Lab1\\SSD-Lab1\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\SecureSoftwareAssignment\\SSD-Lab1\\SSD-Lab1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

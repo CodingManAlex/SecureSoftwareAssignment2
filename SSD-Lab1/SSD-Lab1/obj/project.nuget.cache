@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g2kFLCl8MeIDnxTD7/V+ST6D1SMVNy2Vmd42TEA5E8dLPs4cTPRrxTagmAnl2tiEN6+PAO+krltnxwBjFCVxjg==",
+  "dgSpecHash": "qzvxPwYQVr+rI7PSNAukMcQjIduPzk66GX0LH64JNBDk71sVndiGaMKhtSP6+TwbOvhl6H/g8AXcE6fXj4R4FQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\_MOHAWK_COLLEGE\\6_SEMESTER\\SecureSoftwareDev\\SSD-Lab1\\SSD-Lab1\\SSD-Lab1.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\SecureSoftwareAssignment\\SSD-Lab1\\SSD-Lab1\\SSD-Lab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",

@@ -21,11 +21,9 @@ namespace SSD_Lab1
             //Initialize appsecrets
             var configuration = host.Services.GetService<IConfiguration>();
             var hosting = host.Services.GetService<IWebHostEnvironment>();
-            if (hosting.IsDevelopment())
-            {
-                var secrets = configuration.GetSection("Secrets").Get<AppSecrets>();
-                DbInitializer.appSecrets = secrets;
-            }
+
+            var secrets = configuration.GetSection("Secrets").Get<AppSecrets>();
+            DbInitializer.appSecrets = secrets;
 
             using (var scope = host.Services.CreateScope())
                 DbInitializer.SeedUsersAndRoles(scope.ServiceProvider).Wait();
